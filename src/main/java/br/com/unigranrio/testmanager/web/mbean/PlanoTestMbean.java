@@ -10,6 +10,11 @@ public class PlanoTestMbean {
 	private String appName="Orion";
 
 	
+	public String save(){
+		setAppName(appName+" The app!!!!!");
+		return "plano";
+	}
+	
 	
 	public String getAppName() {
 		return appName;
